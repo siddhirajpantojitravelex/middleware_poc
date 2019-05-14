@@ -1,0 +1,12 @@
+[
+    {
+        "jobName": "job1",
+        "fileType": "csv",
+        "inputFileLocation": "../Serverless-FileReader-Transformer/S3Bucket/Middleware/Files/CSV/DataFile/job1/SampleInputFile.csv",
+        "inputFileSchema": "../Serverless-FileReader-Transformer/S3Bucket/Middleware/Files/CSV/Schema/type1-in-schema.js",
+        "outputFileLocation": "../Serverless-FileReader-Transformer/S3Bucket/Middleware/Output/job1/",
+        "outputFileSchema": "../OutputSchema/type1-out-schema.js",
+        "schemaMapperLocation": "../Serverless-FileReader-Transformer/S3Bucket/Middleware/Files/Mappings/type1-mapping.js",
+        "containsHeader" : false
+    }
+]
